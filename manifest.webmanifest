@@ -1,0 +1,17 @@
+{
+  "name": "Passo",
+  "short_name": "Passo",
+  "description": "Effortless food logging from photographs, voice, and text.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f3f5f7",
+  "theme_color": "#241d2c",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
