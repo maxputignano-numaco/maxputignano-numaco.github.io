@@ -1,5 +1,12 @@
-const CACHE = "passo-shell-v2";
-const SHELL = ["/", "/manifest.webmanifest", "/favicon.svg"];
+const CACHE = "passo-shell-v3";
+const SHELL = [
+  "/",
+  "/manifest.webmanifest",
+  "/favicon.svg",
+  "/apple-touch-icon.png",
+  "/icon-192.png",
+  "/icon-512.png",
+];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(SHELL)));
