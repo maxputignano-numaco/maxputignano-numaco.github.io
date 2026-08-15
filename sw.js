@@ -1,4 +1,4 @@
-const CACHE = "passo-shell-v4";
+const CACHE = "passo-shell-0.4.0";
 const SHELL = [
   "/",
   "/manifest.webmanifest",
